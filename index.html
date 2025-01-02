@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <script>
-        console.log("Wsg peeps");
-    </script>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <h1>Rock! Paper! Scissors!</h1>
+    <div id="instructions">
+        <ol id="rules">
+            <li>Choose a button to press.</li>
+            <li>Watch results.</li>
+            <li>If you want to play again press F5.</li>
+        </ol>
+    </div>
+    <div id="choices">
+        <button id="rock">rock</button>
+        <button id="paper">paper</button>
+        <button id="scissors">scissors</button>
+    </div>
+    <div id="results">
+        <h1>You chose:</h1>
+        <p id="choice"></p>
+        <h1>CPU Chose:</h1>
+        <p id="cpuChoice"></p>
+        <h1>Results:</h1>
+    </div>
 </body>
 </html>

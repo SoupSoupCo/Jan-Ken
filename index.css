@@ -1,0 +1,23 @@
+h1, h2{
+    text-align: center;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+#instructions {
+    display: flex;
+    justify-content: center;
+}
+
+#results {
+    display: none;
+}
+
+p {
+    text-align: center;;
+}
